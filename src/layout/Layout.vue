@@ -1,19 +1,16 @@
 <template>
     <div>
-      <div class="row">
+
         <SideBar />
-        <div class=" right_side">
-  
-          <h2>{{message}} </h2>
-  
-        </div>
-      </div>
+        <!-- <h2>{{message}} </h2> -->
+       
     </div>
   </template> 
   
   <script>
   import SideBar from '../components/SideBar'
-  
+//   import SubMenu from '../components/SubMenu'
+// import Navbar from '../components/Navbar'
 //   import SubMenu from '../components/SubMenu'
   
   
@@ -23,6 +20,8 @@
     name: 'HomeScreen',
     components: {
       SideBar,
+    //   SubMenu,
+        // Navbar,
       // MainC,
       // NavBarC,
     //   SubMenu,
