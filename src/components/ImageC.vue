@@ -5,7 +5,8 @@
         </a>
 
         <div class="image_desc">
-            <h5>{{ photo.user.name }} <i class="fa fa-download" style="float: right; color:#cee5dc;margin-top:10px "></i> </h5>
+            <h5>{{ photo.user.name }} <a :href="photo.links.download" target="_blank"><i class="fa fa-download"
+                        style="float: right; color:#cee5dc;margin-top:10px "></i> </a> </h5>
             <div class="sub_image_desc">
 
                 <img :src="photo.user.profile_image.medium" :alt="photo.user.name">
