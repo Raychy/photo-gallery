@@ -11,7 +11,7 @@
             </li>
           </ul>
           <form @submit.prevent>
-            <div class="input-group mb-3">
+            <div class="input-group mb-3"> 
 
               <span class="input-group-text" id="basic-addon1" @click="fetchFilterPhotos(search)"><i
                   class="fa fa-search"></i>
