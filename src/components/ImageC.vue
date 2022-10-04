@@ -22,7 +22,8 @@ export default {
     props: {
         photo: {
             type: Object,
-            required: true
+            required: true,
+            style:''
         }
     },
     methods: {

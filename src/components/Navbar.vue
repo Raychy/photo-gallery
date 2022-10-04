@@ -26,22 +26,11 @@
       </nav>
 </template>
 <script>
-    // import SideBar from './components/SideBar'
-    
-    // import SubMenu from './components/SubMenu'
-    
-    
     import partials from '@/store/partials'
     import { mapState } from 'vuex'
     export default {
       name: 'Navbar',
       components: {
-        // SideBar,
-        // MainC,
-        // NavBarC,
-        // SubMenu,
-        // ResultMainC,
-    
       },
       data() {
         return {

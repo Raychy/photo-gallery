@@ -21,6 +21,26 @@
         <li><i class="fa fa-search"></i> Search</li>
       </ul>
     </section>
+    <ul class="sub_major_menu2"> 
+      <li> <router-link to="/nature"><i class="fa fa-fire" style="color:#09ba67"></i><span v-if="isHidden">Nature</span></router-link> </li>
+      <li> <router-link to="/technology"><i class="fa-sharp fa-solid fa-microchip" style="color:#24b773"></i><span v-if="isHidden">Technology</span></router-link> </li>
+      <li><router-link to="/animals"><i class="fa-solid fa-hippo" style="color:#8526a5"></i><span v-if="isHidden">Animals</span> </router-link>  </li>
+      <li><router-link to="/food"><i class="fa-sharp fa-solid fa-bowl-food" style="color:#a57b26"></i><span v-if="isHidden">Food</span> </router-link> </li>
+      <li><router-link to="/buildings"><i class="fa-solid fa-house" style="color:#e27126"></i><span v-if="isHidden">Building</span></router-link>  </li>
+      <li><router-link to="/sport"><i class="fa-sharp fa-solid fa-volleyball" style="color:#eadcd3"></i><span v-if="isHidden">Sport</span> </router-link> </li>
+      <li><router-link to="/cars"><i class="fa fa-car" style="color:#a83939"></i><span v-if="isHidden">Car</span> </router-link> </li>
+      <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Furniture</a></li>
+              <li><a class="dropdown-item" href="#">Land</a></li>
+              <li><a class="dropdown-item" href="#">House</a></li>
+          </ul>
+      </li> -->
+  </ul>
     <div class="sidemenu"><i class="fa-brands fa-wpexplorer"></i> <span
       v-if="isHidden">Explore</span></div>
     <div class="sidemenu"><i class="fa-regular fa-bookmark"></i> <span
