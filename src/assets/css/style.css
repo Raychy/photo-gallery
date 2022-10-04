@@ -284,6 +284,9 @@ a {
     align-items: baseline;
 
 }
+.menu_list li a:hover{
+    color: #41B883;
+}
 
 .dashboard {
     font-size: 20px;
