@@ -16,7 +16,7 @@
               <span class="input-group-text" id="basic-addon1" @click="fetchFilterPhotos(search)"><i
                   class="fa fa-search"></i>
               </span>
-              <input type="text" v-model="search" class="form-control input_text" placeholder="search"
+              <input type="text" v-model="search" @keyup.enter="fetchFilterPhotos(search)" class="form-control input_text" placeholder="search"
                 aria-label="Username" aria-describedby="basic-addon1">
             </div>
           </form>
